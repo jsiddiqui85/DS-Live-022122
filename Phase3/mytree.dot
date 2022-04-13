@@ -1,6 +1,7 @@
 digraph Tree {
-node [shape=box, style="filled", color="black"] ;
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 graph [ranksep=equally, splines=polyline] ;
+edge [fontname="helvetica"] ;
 0 [label="node #0\norigin <= 1.5\ngini = 0.381\nsamples = 262\nvalue = [195, 67]", fillcolor="#eeac7d"] ;
 1 [label="node #1\ngini = 0.475\nsamples = 170\nvalue = [104, 66]", fillcolor="#f6d1b7"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
